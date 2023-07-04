@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 狗狗博客
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: SimpleZzz
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://simplezzz.asia
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -45,7 +45,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -103,3 +103,14 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# 配置katex渲染数学方程
+markdown:
+    plugins:
+      - '@renbaoshuo/markdown-it-katex'
+
+# 配置搜索服务
+algolia:
+  applicationID: 'QVCNNFOJGA'
+  apiKey: 'da03d3f8f989d79c9ff923da5020fa26'
+  indexName: 'dev_dogBlog'
