@@ -42,7 +42,7 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /img/favicon-dog.png
 
 # Avatar (頭像)
 avatar:
@@ -56,7 +56,7 @@ disable_top_img: false
 index_img: /img/index.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: /img/index.jpg
 
 # The banner image of archive page
 archive_img:
@@ -456,6 +456,7 @@ valine:
   bg: # valine background
   visitor: false
   option:
+    emojiCDN: '//i0.hdslb.com/bfs/emote/'
 
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
