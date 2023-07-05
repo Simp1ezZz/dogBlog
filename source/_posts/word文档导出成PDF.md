@@ -27,7 +27,7 @@ category: 工具
 
 我使用的是[JodConveter](https://github.com/sbraconnier/jodconverter) +[OpenOffice](https://www.openoffice.org/)在linux下实现的，这套组合在Windows下也是没有问题的,只要下载对应的OpenOffice版本就可以了。
 
-![image-20210302134315895](https://gitee.com/SimpleZzz/pic/raw/master/img/image-20210302134315895.png)
+![](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307052241874.webp)
 
 ---
 
@@ -37,7 +37,7 @@ Windows下安装OpenOffice就不用多说了，安装包打开之后无脑下一
 
 1. 首先下载linux下OpenOffice的安装包。我使用的是centos7.4所以直接下载这个rpm的包就可以了。下载后得到[Apache_OpenOffice_4.1.9_Linux_x86-64_install-rpm_zh-CN.tar.gz](https://sourceforge.net/projects/openofficeorg.mirror/files/4.1.9/binaries/zh-CN/Apache_OpenOffice_4.1.9_Linux_x86-64_install-rpm_zh-CN.tar.gz/download)这个文件。
 
-    ![image-20210302134650357](https://gitee.com/SimpleZzz/pic/raw/master/img/image-20210302134650357.png)
+    ![](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307052242181.webp)
 
 2. 将下载好的文件上传至服务器并解压缩，会生成一个`zh-CN`文件夹。进入该文件夹下的`PRMS`文件夹。
 
