@@ -7,7 +7,7 @@ tags:
  - 集合
  - Collection
 category: 学习
-cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E7%99%BD%E9%93%B6%20%E4%B8%80%20I.png
+cover: https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307052245539.webp
 ---
 
 # Java从白银到大地球-Collection
@@ -45,7 +45,7 @@ cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E7%99%BD%E9%93%B6%20%E4%B
 
 - 集合类有很多，但是常用的集合类并不多，常用集合类及关系如下图
 
-    ![常用集合类](https://gitee.com/SimpleZzz/pic/raw/master/img/%E5%B8%B8%E7%94%A8%E9%9B%86%E5%90%88%E7%B1%BB.png)
+    ![常用集合类](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307070054927.webp)
 
 ---
 
@@ -53,7 +53,7 @@ cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E7%99%BD%E9%93%B6%20%E4%B
 
 #### 1.4.1 接口中的全部方法 
 
-![Collection接口方法](https://gitee.com/SimpleZzz/pic/raw/master/img/Collection%E5%85%A8%E9%83%A8%E6%96%B9%E6%B3%95.png)
+![Collection接口方法](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307070054062.webp)
 
 #### 1.4.2 基础方法简单介绍
 
@@ -110,19 +110,19 @@ cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E7%99%BD%E9%93%B6%20%E4%B
 
 - 查看源码我们发现Collection接口继承自Iterable接口
 
-![Collection接口继承自Iterable接口](https://gitee.com/SimpleZzz/pic/raw/master/img/Collection%E7%BB%A7%E6%89%BF%E8%87%AAIterable.png)
+![Collection接口继承自Iterable接口](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307070054406.webp)
 
 - 点进Iterable接口，我们发现有一个iterator()方法，该方法返回一个Iterator
 
-![Iterable接口](https://gitee.com/SimpleZzz/pic/raw/master/img/Iterable%E6%8E%A5%E5%8F%A3.png)
+![Iterable接口](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307070054276.webp)
 
 - 继续点进Iterator接口，发现该接口有三个基础方法，但是三个方法均没有具体实现，只能找一找Collection接口的下的类有没有实现该方法的。
 
-![Iterator接口及基础方法](https://gitee.com/SimpleZzz/pic/raw/master/img/Iterator%E6%8E%A5%E5%8F%A3.png)
+![Iterator接口及基础方法](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307070054722.webp)
 
 - 在ArrayList类里发现了一个内部类实现了Iterator接口，通过实现方法来看，迭代器实际上就是在遍历集合中的元素
 
-![ArrayList中实现了Iterator的内部类](https://gitee.com/SimpleZzz/pic/raw/master/img/ArrayList%E4%B8%ADIterator%E5%86%85%E9%83%A8%E7%B1%BB.png)
+![ArrayList中实现了Iterator的内部类](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307070054203.webp)
 
 - 迭代器中方法简介
     - boolean hasNext()：迭代器中是否还有元素，一般用于循环条件判断。
@@ -141,13 +141,13 @@ cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E7%99%BD%E9%93%B6%20%E4%B
 
 - 点进List的源码，我们可以看到注释的前两段就说明了List集合的特点：`有序`和`可重复`
 
-    ![List集合全部方法及JavaDoc](https://gitee.com/SimpleZzz/pic/raw/master/img/List%E9%9B%86%E5%90%88%E6%96%B9%E6%B3%95%E5%8F%8AJavaDoc.png)
+    ![List集合全部方法及JavaDoc](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307070055028.webp)
 
 - List相较于Collection，多了很多方法，但基本上都是`根据下标来获取添加和修改元素,以及获取某个元素的下标`。
 
 - 多了一个`listIterator()`方法，该方法返回了`ListIterator`接口，该接口继承自`Iterator`,点进源码，发现相比于Iterator，该接口又多了一些方法，让迭代器可以`向前遍历,添加元素,修改元素,获取元素下标`
 
-    ![](https://gitee.com/SimpleZzz/pic/raw/master/img/ListIterator%E6%8E%A5%E5%8F%A3.png)
+    ![](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307070055656.webp)
 
 - 多了一个`sort(Comparator c)`方法，用来根据指定的比较器Comparator来对列表进行排序
 
@@ -167,7 +167,7 @@ cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E7%99%BD%E9%93%B6%20%E4%B
 
 - 从源码中可以发现，Set集合并没有比Collection集合多出方法，且注释中直接说明了Set集合的特点：`元素是不可重复的`
 
-![](https://gitee.com/SimpleZzz/pic/raw/master/img/Set%E9%9B%86%E5%90%88%E6%96%B9%E6%B3%95%E5%8F%8AJavaDoc.png)
+![](https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307070055127.webp)
 
 ### 3.2 Set集合常用子类
 
