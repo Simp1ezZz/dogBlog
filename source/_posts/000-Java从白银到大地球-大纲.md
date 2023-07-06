@@ -7,17 +7,12 @@ tags:
  - 从白银到大地球
 category: 学习
 description: Java知识点大纲，有每篇文章的链接，欢迎点击！
-cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E5%85%A8%E7%90%83%E7%B2%BE%E8%8B%B1.png
-swiper_index: 4
-swiper_desc: Java学习全部知识点,让你从白银一直接打到大地球
-swiper_cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E5%85%A8%E7%90%83%E7%B2%BE%E8%8B%B1.png
+cover: https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/202307052244643.webp
 ---
 
 # Java从白银到大地球-大纲
 
 > PS: 工作之后总觉得自己原来学过的知识到用的时候也只是仅仅记住了名字，很多东西还是得要去反复查找。最近下班之后感觉没什么事请做，就想起来把原来之前学到的东西从头到尾仔仔细细的复习一遍，一是回顾一下知识点，二是顺便学习一些原来没有学到的地方。
-
-{% note info flat %}这个系列很多资料都是参考微信公众号敖丙和他的好基友Java3y发布的文章，所要复习的知识点参照了敖丙的思维导图。{% endnote %}
 
 {% progress 1 green 复习进度 %}
 
@@ -29,7 +24,7 @@ swiper_cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E5%85%A8%E7%90%83%
 
 {% note info flat %}集合类{% endnote %}
 
-{% checkbox checked blue, [001-Java从白银到大地球-Collection](http://121.196.21.89/2021/05/15/002-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84Java%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%8D%E4%B9%A0-%E9%9B%86%E5%90%88-Collection/) %}
+{% checkbox checked blue, [001-Java从白银到大地球-Collection](https://www.simplezzz.asia/2021/05/15/001-Java%E4%BB%8E%E7%99%BD%E9%93%B6%E5%88%B0%E5%A4%A7%E5%9C%B0%E7%90%83-Collection/) %}
 
 {% checkbox blue, 002-Java从白银到大地球-List %}
 

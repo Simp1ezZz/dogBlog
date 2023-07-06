@@ -130,10 +130,10 @@ index_post_content:
 # anchor
 anchor:
   button:
-    enable: false
-    always_show: false
+    enable: true
+    always_show: true
     icon: # the unicode value of Font Awesome icon, such as '\3423'
-  auto_update: false # when you scroll in post, the URL will update according to header id.
+  auto_update: true # when you scroll in post, the URL will update according to header id.
 
 # figcaption (圖片描述文字)
 photofigcaption: false
@@ -909,7 +909,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
+    - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" > </div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
