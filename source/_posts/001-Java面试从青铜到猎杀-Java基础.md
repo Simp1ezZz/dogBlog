@@ -80,6 +80,8 @@ Java中基础数据类型有8种：
 List<String> list = new ArrayList<>();
 ```
 
+多态分为编译时的多态和运行时的多态，方法重载即为编译时多态，而方法重写以及对象造型（父类引用指向子类实例）为运行时多态。
+
 ## 4. 接口和抽象类的区别与联系
 
 ### 共同点
@@ -331,3 +333,17 @@ Constable, ConstantDesc {
 }
 ```
 
+## 10.访问修饰符`public`、`protected`、`private`以及`不写(默认)`时的区别
+
+| 修饰符    | 当前类 | 同包下 | 子类 | 任意包下 |
+| --------- | ------ | ------ | ---- | -------- |
+| public    | √      | √      | √    | √        |
+| protected | √      | √      | √    | ×        |
+| default   | √      | √      | ×    | ×        |
+| private   | √      | ×      | ×    | ×        |
+
+## 11. 简述`final`、`finally`、`finalize`的区别
+
+- `final`：修饰类不能被继承、修饰方法不能被重写、修饰变量该变量为常量不能被修改
+- `finally`：用于`try catch finally`代码块，指定该`finally`代码块无论如何都会执行，即使在`catch`块中有`return`，也会先将`return`的值暂存，执行完`finally`代码块后再`return`；除非java虚拟机被直接关闭，比如执行了`System.exit()`方法强行关闭虚拟机。一般被用于释放资源。
+- `finalize`：在`Object`类中定义的方法，该方法会在对象被回收时调用，类似于`c、c++`中的`析构函数`
