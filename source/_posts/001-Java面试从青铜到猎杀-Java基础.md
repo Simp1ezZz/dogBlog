@@ -1,5 +1,5 @@
 ---
-title: 001-Java面试从青铜到猎杀-Java基础（上）
+title: 001-Java面试从青铜到猎杀-Java基础
 top_img: https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/index.jpg
 comments: true
 cover: https://my-pic-picgo.oss-cn-shanghai.aliyuncs.com/apex_bronze.webp
@@ -18,7 +18,7 @@ keywords: Java基础
 description: 
 ---
 
-# 001-Java面试从青铜到猎杀-Java基础（上）
+# 001-Java面试从青铜到猎杀-Java基础
 
 ## 1. Java中基础数据类型
 
